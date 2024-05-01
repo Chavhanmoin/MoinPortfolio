@@ -74,5 +74,5 @@ function SendMail(){
 
     let body = name+", "+number+", "+email+" -->  "+message;
 
-    window.location.href = "mailto:sanjeetkumar@engineer.com?subject="+subject+"&body="+body;
+    window.location.href = "#"+subject+"&body="+body;
 }
